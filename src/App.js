@@ -28,6 +28,7 @@ export default function App() {
 
     const repositoriesUpdated = repositories.map(repository => {
       if (repository.id === id) {
+
         return likedRepository;
       } else {
         return repository;
